@@ -16,8 +16,8 @@ export const TableSlider = ({ data }: TYPETABLE) => {
               key={i}
               className={` ${
                 page === i
-                  ? "border-b-4 border-white bg-prettyBlue bg-opacity-25"
-                  : "border-b-4 border-mediumBlue"
+                  ? "border-b-4 border-mediumBlue bg-prettyBlue bg-opacity-25"
+                  : "border-b-4 border-white"
               } cursor-pointer text-[18px] w-full text-center rounded-t-2xl px-[18px] py-[4px] duration-200`}
               onClick={() => {
                 setPage(i);

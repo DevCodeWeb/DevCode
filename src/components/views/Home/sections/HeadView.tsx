@@ -56,9 +56,19 @@ export const HeadView = () => {
         <div className="z-20 text-grey">
           <li className="flex xs:flex-col-reverse sm:flex-col-reverse gap-[24px] items-center w-full">
             <Button label="Demander un devis" />
-            <ul className="w-full text-center md:hidden">Hébergement</ul>
-            <ul className="w-full text-center md:hidden">Nom de domaine</ul>
-            <ul className="w-full text-center md:hidden">Maintenance</ul>
+
+            <ul className="hidden w-full text-center xs:block sm:block md:block">
+              Lancez-vous avec un site internet professionel
+            </ul>
+            <ul className="w-full text-center xs:hidden sm:hidden md:hidden">
+              Hébergement
+            </ul>
+            <ul className="w-full text-center xs:hidden sm:hidden md:hidden">
+              Nom de domaine
+            </ul>
+            <ul className="w-full text-center xs:hidden sm:hidden md:hidden">
+              Maintenance
+            </ul>
           </li>
         </div>
       </div>

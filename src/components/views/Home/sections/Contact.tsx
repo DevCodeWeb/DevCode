@@ -1,3 +1,5 @@
+import { Button } from "@/components/atoms/Button";
+
 export const Contact = () => {
   return (
     <section className="bg-white responsive py-[150px]">
@@ -13,9 +15,10 @@ export const Contact = () => {
         <h3 className="text-[32px] xs:text-[18px] sm:text-[18px] font-light hover:text-mediumBlue cursor-pointer duration-200">
           06 19 22 09 08
         </h3>
-        <h3 className="text-[32px] xs:text-[18px] sm:text-[18px] font-light hover:text-mediumBlue cursor-pointer duration-200">
+        <h3 className="text-[32px] mb-[16px] xs:text-[18px] sm:text-[18px] font-light hover:text-mediumBlue cursor-pointer duration-200">
           contact.devcode@gmail.com
         </h3>
+        <Button label="Contacter" />
         <p className="text-[18px] xs:text-[12px] sm:text-[12px] text-grey mt-[62px]">
           Lancez votre marketing digital avec
           <br />
