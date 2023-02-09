@@ -36,7 +36,7 @@ export const HeadView = () => {
       <div className="col-span-6 bg-white xs:bg-black sm:bg-black xs:h-screen sm:h-screen xs:col-span-12 sm:col-span-12 py-[100px] px-[48px] xs:px-[16px] sm:px-[16px] md:px-[24px] flex flex-col items-between justify-between h-full">
         <div className="flex items-center gap-[12px]">
           <img src="assets/logo.png" alt="logo DevCode" className="w-[48px]" />
-          <h3 className="text-grey">David Rusucta</h3>
+          <h3 className="text-grey">David Ruscuta</h3>
         </div>
         <img
           src="assets/decoshapes/vortex.svg"
