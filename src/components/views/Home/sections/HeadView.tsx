@@ -41,7 +41,7 @@ export const HeadView = () => {
         <img
           src="assets/decoshapes/hexagon.svg"
           alt=""
-          className={` ${style.vortex} absolute w-[1000px] top-[200px] left-0 right-0 opacity-70`}
+          className={` ${style.vortex} absolute w-[1000px] top-[150px] left-0 right-0 opacity-70`}
         />
         <div className="z-20 flex flex-col xs:items-center sm:items-center">
           <h1 className="font-extrabold text-black xs:text-white sm:text-white text-[62px]">
