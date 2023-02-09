@@ -5,7 +5,7 @@ export default function HomePage() {
   return (
     <>
       <Head>
-        <title>DevCode</title>
+        <title>Création de sites web</title>
         <meta
           name="description"
           content="Lancez votre marketing digital avec un site web professionnel"
