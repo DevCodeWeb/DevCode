@@ -2,7 +2,7 @@ import { Button } from "@/components/atoms/Button";
 
 export const Contact = () => {
   return (
-    <section className="bg-white responsive py-[150px]">
+    <section className="bg-white responsive py-[150px] xs:px-[16px] sm:px-[16px]">
       <div className="col-span-5 col-start-2 text-black md:col-start-2 xs:col-span-12 sm:col-span-12 xs:text-center sm:text-center">
         <h1 className="font-extrabold text-[62px] mb-[62px] xs:text-[32px xs:text-[32px] sm:text-[32px]">
           Besoin d'un
