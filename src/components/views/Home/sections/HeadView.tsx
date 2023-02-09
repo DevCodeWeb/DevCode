@@ -33,7 +33,7 @@ export const HeadView = () => {
           <p>{"  </html>"}</p>
         </div>
       </div>
-      <div className="col-span-6 bg-white xs:bg-black sm:bg-black xs:h-screen sm:h-screen xs:col-span-12 sm:col-span-12 py-[100px] px-[48px] xs:px-[24px] sm:px-[24px] md:px-[24px] flex flex-col items-between justify-between h-full">
+      <div className="col-span-6 bg-white xs:bg-black sm:bg-black xs:h-screen sm:h-screen xs:col-span-12 sm:col-span-12 py-[100px] px-[48px] xs:px-[16px] sm:px-[16px] md:px-[24px] flex flex-col items-between justify-between h-full">
         <div className="flex items-center gap-[12px]">
           <img src="assets/logo.png" alt="logo DevCode" className="w-[48px]" />
           <h3 className="text-grey">David Rusucta</h3>
@@ -55,7 +55,7 @@ export const HeadView = () => {
         </div>
         <div className="z-20 text-grey">
           <li className="flex xs:flex-col-reverse sm:flex-col-reverse gap-[24px] items-center w-full">
-            <Button label="Devis" />
+            <Button label="Demander un devis" />
             <ul className="w-full text-center md:hidden">Hébergement</ul>
             <ul className="w-full text-center md:hidden">Nom de domaine</ul>
             <ul className="w-full text-center md:hidden">Maintenance</ul>

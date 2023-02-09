@@ -15,7 +15,7 @@ export const Header = () => {
   return (
     <header className="fixed top-0 z-50 flex items-center justify-center w-screen">
       <div
-        className={` w-full max-w-[1440px] shadow-lg bg-white h-[50px] hover:h-[70px] hover:rounded-b-lg duration-200 text-black px-[48px] flex rounded-b-2xl ${
+        className={` w-full max-w-[1440px] shadow-lg bg-white h-[50px] hover:h-[70px] hover:rounded-b-lg duration-200 text-black px-[48px] xs:px-[16px] sm:px-[16px] flex rounded-b-2xl ${
           scroll ? "top-0 duration-300" : "top-[-70px] duration-300"
         } items-center justify-between`}
       >
