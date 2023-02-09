@@ -23,7 +23,7 @@ export const HeadView = () => {
             <p className="text-white">Ruscuta David</p>
             <p>{"  </h1>"}</p>
           </div>
-          <div className=" flex gap-[6px]">
+          <div className=" flex gap-[6px] z-20">
             <p>{"  <p>"}</p>
             <p className="text-white">Designer & Développeur Web</p>
             <p>{"  </p>"}</p>
@@ -33,15 +33,15 @@ export const HeadView = () => {
           <p>{"  </html>"}</p>
         </div>
       </div>
-      <div className="col-span-6 bg-white xs:bg-black sm:bg-black xs:h-screen sm:h-screen xs:col-span-12 sm:col-span-12 py-[100px] px-[48px] xs:px-[16px] sm:px-[16px] md:px-[24px] flex flex-col items-between justify-between h-full">
+      <div className="col-span-6 bg-white xs:bg-black sm:bg-black xs:h-screen sm:h-screen xs:col-span-12 sm:col-span-12 py-[100px] xs:pt-[24px] sm:pt-[24px] px-[48px] xs:px-[16px] sm:px-[16px] md:px-[24px] flex flex-col items-between justify-between h-full">
         <div className="flex items-center gap-[12px]">
           <img src="assets/logo.png" alt="logo DevCode" className="w-[48px]" />
           <h3 className="text-grey">David Ruscuta</h3>
         </div>
         <img
-          src="assets/decoshapes/vortex.svg"
+          src="assets/decoshapes/hexagon.svg"
           alt=""
-          className={` ${style.vortex} absolute w-[1000px] top-[200px] left-0 right-0`}
+          className={` ${style.vortex} absolute w-[1000px] top-[200px] left-0 right-0 opacity-70`}
         />
         <div className="z-20 flex flex-col xs:items-center sm:items-center">
           <h1 className="font-extrabold text-black xs:text-white sm:text-white text-[62px]">
