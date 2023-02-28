@@ -18,7 +18,7 @@ export const clients = [
   {
     name: "MidGarage",
     description: "Garage spécialisé Poids Lourds situé à Nesle. ",
-    img: "assets/clients/mecaauto.png",
+    img: "assets/clients/midgarage.png",
     tag: ["Design", "Maquettes", "Intégration", "Responsive"],
   },
 ];

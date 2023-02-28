@@ -10,7 +10,7 @@ export const Clients = () => {
       {clients.map((elm, i) => {
         return (
           <ClientCard
-            key={i}
+            id={i}
             name={elm.name}
             description={elm.description}
             site={elm.site}

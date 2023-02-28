@@ -27,7 +27,7 @@ export const Header = () => {
         </div>
         <div className="text-grey">
           <li className="flex gap-[24px] items-center  ">
-            {["Offres", "Clients"].map((elm, i) => {
+            {/* {["Offres", "Clients"].map((elm, i) => {
               return (
                 <ul
                   key={i}
@@ -36,7 +36,7 @@ export const Header = () => {
                   {elm}
                 </ul>
               );
-            })}
+            })} */}
             <Button label="Contacter" />
           </li>
         </div>

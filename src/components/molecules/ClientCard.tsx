@@ -5,7 +5,7 @@ import { Button } from "../atoms/Button";
 import style from "@/styles/animation.module.scss";
 
 type TYPECARD = {
-  key: number;
+  id: number;
   name: string;
   description: string;
   site?: string;
@@ -14,7 +14,7 @@ type TYPECARD = {
 };
 
 export const ClientCard = ({
-  key,
+  id,
   name,
   description,
   site,
@@ -23,7 +23,7 @@ export const ClientCard = ({
 }: TYPECARD) => {
   return (
     <div
-      key={key}
+      key={id}
       className="flex flex-col col-span-4 xs:col-span-12 sm:col-span-12 md:col-span-6 overflow-hidden duration-300 hover:shadow-lg rounded-2xl hover:ring-4 hover:ring-mediumBlue p-[28px]"
     >
       <div className="flex mb-[24px] items-center justify-center grayscale hover:grayscale-0 duration-300 fill-neutral-100 w-full bg-grey h-[200px] rounded-2xl overflow-hidden">
